@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Dasboard-Penyewaan-Sepeda
-=======
 # Dashboard Analisis Penyewaan Sepeda 🚲  
 
 Dashboard ini dibuat menggunakan **Streamlit** untuk menganalisis data penyewaan sepeda berdasarkan metode **RFM Analysis**.  
@@ -40,12 +37,17 @@ streamlit run dashboard.py
 ## Struktur Folder  
 ```
 dashboard_streamlit/
-│── dashboard.py            # File utama Streamlit  
-│── requirements.txt        # Library yang dibutuhkan  
-│── README.md               # Dokumentasi proyek  
-│── data_dashboard          # Folder dataset  
-│   ├── day_data.csv        # Data penyewaan sepeda harian  
-│   ├── hour_data.csv       # Data penyewaan sepeda per jam  
+│── data_dashboard              # Data dashboard     
+│   ├── day_data.csv
+|   ├── hour_data.csv     
+│── dashboard.py                # File utama Streamlit
+Data                            # Data analisis
+│──day.csv
+│──hour.csv                     
+Proyek_Analisis_Data.py         # File utama analisis   
+README.md                       # Langkah menjalankan dashboard
+requirements.txt                # Library yang dibutuhkan
+url.txt                         # url streamlit
 ```
 
 >>>>>>> 895d28e (Upload proyek dashboard penyewaan sepeda)
