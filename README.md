@@ -31,6 +31,7 @@ pip install -r requirements.txt
 Jalankan perintah berikut di terminal:  
 
 ```sh
+cd dashboard_streamlit/
 streamlit run dashboard.py  
 ```
 
@@ -49,5 +50,3 @@ README.md                       # Langkah menjalankan dashboard
 requirements.txt                # Library yang dibutuhkan
 url.txt                         # url streamlit
 ```
-
->>>>>>> 895d28e (Upload proyek dashboard penyewaan sepeda)
